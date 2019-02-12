@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Programming Languages &#8211; Study Chashma</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Mon, 11 Feb 2019 17:22:50 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.0.3</generator>
+	<item>
+		<title>This is another java tutorials</title>
+		<link>./../../../2019/01/29/this-is-another-java-tutorials/index.html</link>
+		<comments>./../../../2019/01/29/this-is-another-java-tutorials/index.html#respond</comments>
+		<pubDate>Tue, 29 Jan 2019 17:05:55 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+
+		<guid isPermaLink="false">./../../../index.html?p=115</guid>
+		<description><![CDATA[<p>The post <a rel="nofollow" href="./../../../2019/01/29/this-is-another-java-tutorials/index.html">This is another java tutorials</a> appeared first on <a rel="nofollow" href="./../../../index.html">Study Chashma</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[
+<pre class="crayon-plain-tag">import java.util.Scanner;
+class ReverseNumberWhile
+{
+   public static void main(String args[])
+   {
+      int num=0;
+      int reversenum =0;
+      System.out.println(&quot;Input your number and press enter: &quot;);
+      //This statement will capture the user input
+      Scanner in = new Scanner(System.in);
+      //Captured input would be stored in number num
+      num = in.nextInt();
+      //While Loop: Logic to find out the reverse number
+      while( num != 0 )
+      {
+          reversenum = reversenum * 10;
+          reversenum = reversenum + num%10;
+          num = num/10;
+      }
+
+      System.out.println(&quot;Reverse of input number is: &quot;+reversenum);
+   }
+}</pre>
+<p>The post <a rel="nofollow" href="./../../../2019/01/29/this-is-another-java-tutorials/index.html">This is another java tutorials</a> appeared first on <a rel="nofollow" href="./../../../index.html">Study Chashma</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>./../../../2019/01/29/this-is-another-java-tutorials/feed/index.html</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Hello This is java</title>
+		<link>./../../../2019/01/20/hello-this-is-java/index.html</link>
+		<comments>./../../../2019/01/20/hello-this-is-java/index.html#respond</comments>
+		<pubDate>Sun, 20 Jan 2019 20:03:13 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+
+		<guid isPermaLink="false">./../../../index.html?p=95</guid>
+		<description><![CDATA[<p>The post <a rel="nofollow" href="./../../../2019/01/20/hello-this-is-java/index.html">Hello This is java</a> appeared first on <a rel="nofollow" href="./../../../index.html">Study Chashma</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[
+<div id="advgb-tabs-2aa08df1-1ddd-4075-a8bf-86feaa671e46" class="wp-block-advgb-tabs advgb-tabs-block" style="border:none"><ul class="advgb-tabs-panel"><li class="advgb-tab" style="background-color:#0693e3;border-style:solid;border-width:2px;border-radius:17px;margin:-2px 0 -2px -2px"><a href="#advgb-tab-2aa08df1-1ddd-4075-a8bf-86feaa671e46-0" style="color:#fff"><span>Tab 1</span></a></li><li class="advgb-tab" style="background-color:#0693e3;border-style:solid;border-width:2px;border-radius:17px;margin:-2px 0 -2px -2px"><a href="#advgb-tab-2aa08df1-1ddd-4075-a8bf-86feaa671e46-1" style="color:#fff"><span>Tab 2</span></a></li><li class="advgb-tab" style="background-color:#0693e3;border-style:solid;border-width:2px;border-radius:17px;margin:-2px 0 -2px -2px"><a href="#advgb-tab-2aa08df1-1ddd-4075-a8bf-86feaa671e46-2" style="color:#fff"><span>Tab 3</span></a></li></ul><div id="advgb-tab-2aa08df1-1ddd-4075-a8bf-86feaa671e46-0" class="advgb-tab-body" style="background-color:#7bdcb5;border-style:solid;border-width:2px;border-radius:17px"><p> <br>he program will prompt user to input the number and then it will reverse the same number using while loop.<br>import java.util.Scanner; class ReverseNumberWhile {    public static void main(String args[])    {       int num=0;       int reversenum =0;       System.out.println(&#8220;Input your number and press enter: &#8220;);       //This statement will capture the user input       Scanner in = new Scanner(System.in);       //Captured input would be stored in number num       num = in.nextInt();       //While Loop: Logic to find out the reverse number       while( num != 0 )       {           reversenum = reversenum * 10;           reversenum = reversenum + num%10;           num = num/10;       }       System.out.println(&#8220;Reverse of input number is: &#8220;+reversenum);    } }<br>Output:<br><br>Input your number and press enter:  145689 Reverse of input number is: 986541 </p></div><div id="advgb-tab-2aa08df1-1ddd-4075-a8bf-86feaa671e46-1" class="advgb-tab-body" style="background-color:#7bdcb5;border-style:solid;border-width:2px;border-radius:17px"><p>Filler text (also placeholder text or dummy text) is text that shares some characteristics of a real written text, but is random or otherwise generated.</p></div><div id="advgb-tab-2aa08df1-1ddd-4075-a8bf-86feaa671e46-2" class="advgb-tab-body" style="background-color:#7bdcb5;border-style:solid;border-width:2px;border-radius:17px"><p></p></div><style>#advgb-tabs-2aa08df1-1ddd-4075-a8bf-86feaa671e46 li.advgb-tab.ui-tabs-active {
+                                background-color: #00d084 !important;
+                            }
+                            #advgb-tabs-2aa08df1-1ddd-4075-a8bf-86feaa671e46 li.advgb-tab.ui-tabs-active a {
+                                color: #eeeeee !important;
+                            }</style></div>
+
+
+
+<div class="wp-block-advgb-accordion advgb-accordion-block" style="margin-bottom:30px"><div class="advgb-accordion-header" style="background-color:#eeeeee;color:#00d084;border-style:solid;border-width:2px;border-radius:16px"><span class="advgb-accordion-header-icon"><svg fill="#00d084" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24"><path fill="none" d="M0,0h24v24H0V0z"></path><path d="M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M17,13h-4v4h-2v-4H7v-2h4V7h2v4h4V13z"></path></svg></span><h4 class="advgb-accordion-header-title">This is for loop</h4></div><div class="advgb-accordion-body" style="background-color:#cbffce;border-style:solid;border-width:2px;border-radius:16px">
+<p>he program will prompt user to input the number and then it will reverse the same number using while loop.</p>
+
+
+
+<pre class="crayon-plain-tag">import java.util.Scanner; class ReverseNumberWhile {    public static void main(String args[])    {       int num=0;       int reversenum =0;       System.out.println(&quot;Input your number and press enter: &quot;);       //This statement will capture the user input       Scanner in = new Scanner(System.in);       //Captured input would be stored in number num       num = in.nextInt();       //While Loop: Logic to find out the reverse number       while( num != 0 )       {           reversenum = reversenum * 10;           reversenum = reversenum + num%10;           num = num/10;       }       System.out.println(&quot;Reverse of input number is: &quot;+reversenum);    } }</pre>
+
+
+
+<p>Output:</p>
+
+
+
+<pre class="crayon-plain-tag">Input your number and press enter: 
+145689
+Reverse of input number is: 986541</pre>
+
+
+
+<div class="wp-block-columns has-2-columns">
+<div class="wp-block-column"></div>
+
+
+
+<div class="wp-block-column"><ul class="wp-block-latest-posts"><li><a href="./../../../2019/01/29/this-is-another-java-tutorials/index.html">This is another java tutorials</a></li>
+<li><a href="./../../../2019/01/20/hello-this-is-java/index.html">Hello This is java</a></li>
+<li><a href="./../../../2019/01/20/java-program-to-reverse-a-number-using-for-while-and-recursion/index.html">Java program to reverse a number using for, while and recursion</a></li>
+<li><a href="./../../../2019/01/20/java-program-to-print-floyds-triangle/index.html">Java program to print Floyd’s triangle</a></li>
+<li><a href="./../../../2019/01/20/java-program-for-linear-search/index.html">Java program for linear search</a></li>
+</ul></div>
+</div>
+
+
+</div></div>
+<p>The post <a rel="nofollow" href="./../../../2019/01/20/hello-this-is-java/index.html">Hello This is java</a> appeared first on <a rel="nofollow" href="./../../../index.html">Study Chashma</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>./../../../2019/01/20/hello-this-is-java/feed/index.html</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Java program to reverse a number using for, while and recursion</title>
+		<link>./../../../2019/01/20/java-program-to-reverse-a-number-using-for-while-and-recursion/index.html</link>
+		<comments>./../../../2019/01/20/java-program-to-reverse-a-number-using-for-while-and-recursion/index.html#respond</comments>
+		<pubDate>Sun, 20 Jan 2019 08:41:24 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+
+		<guid isPermaLink="false">./../../../index.html?p=77</guid>
+		<description><![CDATA[<p>&#46;&#46;&#46;</p>
+<p>The post <a rel="nofollow" href="./../../../2019/01/20/java-program-to-reverse-a-number-using-for-while-and-recursion/index.html">Java program to reverse a number using for, while and recursion</a> appeared first on <a rel="nofollow" href="./../../../index.html">Study Chashma</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h3 id="using-while">Program 1: Reverse a number using while Loop</h3>
+<p>The program will prompt user to input the number and then it will reverse the same number using while loop.</p><pre class="crayon-plain-tag">&lt;span class=&quot;kwd&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; java&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;util&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;Scanner&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kwd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;typ&quot;&gt;ReverseNumberWhile&lt;/span&gt;
+&lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;kwd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; main&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; args&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;[])&lt;/span&gt;
+   &lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;kwd&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; num&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;kwd&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; reversenum &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;str&quot;&gt;&quot;Input your number and press enter: &quot;&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;com&quot;&gt;//This statement will capture the user input&lt;/span&gt;
+      &lt;span class=&quot;typ&quot;&gt;Scanner&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;typ&quot;&gt;Scanner&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;com&quot;&gt;//Captured input would be stored in number num&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+      num &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;nextInt&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;();&lt;/span&gt;
+      &lt;span class=&quot;com&quot;&gt;//While Loop: Logic to find out the reverse number&lt;/span&gt;
+      &lt;span class=&quot;kwd&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; num &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+          reversenum &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; reversenum &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+          reversenum &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; reversenum &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; num&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+          num &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; num&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;
+
+      &lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;str&quot;&gt;&quot;Reverse of input number is: &quot;&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;reversenum&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+   &lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;</pre><p>Output:</p>
+<div class="lq">
+<div data-type="ad" data-publisher="Beginnersbook.com" data-format="300x250" data-zone="ros"></div>
+</div>
+<p></p><pre class="crayon-plain-tag">&lt;span class=&quot;typ&quot;&gt;Input&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; your number &lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;and&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; press enter&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;:&lt;/span&gt; 
+&lt;span class=&quot;lit&quot;&gt;145689&lt;/span&gt;
+&lt;span class=&quot;typ&quot;&gt;Reverse&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; of input number &lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;986541&lt;/span&gt;</pre><p></p>
+<h3 id="using-for">Program 2: Reverse a number using for Loop</h3>
+<p></p><pre class="crayon-plain-tag">&lt;span class=&quot;kwd&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; java&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;util&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;Scanner&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kwd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;typ&quot;&gt;ForLoopReverseDemo&lt;/span&gt;
+&lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;kwd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; main&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; args&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;[])&lt;/span&gt;
+   &lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;kwd&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; num&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;kwd&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; reversenum &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;str&quot;&gt;&quot;Input your number and press enter: &quot;&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;com&quot;&gt;//This statement will capture the user input&lt;/span&gt;
+      &lt;span class=&quot;typ&quot;&gt;Scanner&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;typ&quot;&gt;Scanner&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;com&quot;&gt;//Captured input would be stored in number num&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+      num &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;nextInt&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;();&lt;/span&gt;
+      &lt;span class=&quot;com&quot;&gt;/* for loop: No initialization part as num is already
+       * initialized and no increment/decrement part as logic
+       * num = num/10 already decrements the value of num
+       */&lt;/span&gt;
+      &lt;span class=&quot;kwd&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;num &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+          reversenum &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; reversenum &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+          reversenum &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; reversenum &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; num&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+          num &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; num&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;
+
+      &lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;str&quot;&gt;&quot;Reverse of specified number is: &quot;&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;reversenum&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+   &lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;</pre><p>Output:</p><pre class="crayon-plain-tag">&lt;span class=&quot;typ&quot;&gt;Input&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; your number &lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;and&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; press enter&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;:&lt;/span&gt; 
+&lt;span class=&quot;lit&quot;&gt;56789111&lt;/span&gt;
+&lt;span class=&quot;typ&quot;&gt;Reverse&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; of specified number &lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;11198765&lt;/span&gt;</pre><p></p>
+<h3 id="using-recursion">Program 3: Reverse a number using recursion</h3>
+<p></p><pre class="crayon-plain-tag">&lt;span class=&quot;kwd&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; java&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;util&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;Scanner&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kwd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;typ&quot;&gt;RecursionReverseDemo&lt;/span&gt;
+&lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;com&quot;&gt;//A method for reverse&lt;/span&gt;
+   &lt;span class=&quot;kwd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; reverseMethod&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; number&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+       &lt;span class=&quot;kwd&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;number &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+	   &lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+	   &lt;span class=&quot;kwd&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+       &lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;
+       &lt;span class=&quot;kwd&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+           &lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;number &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;%&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+           &lt;span class=&quot;com&quot;&gt;//Method is calling itself: recursion&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+           reverseMethod&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+       &lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;
+   &lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;
+   &lt;span class=&quot;kwd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; main&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; args&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;[])&lt;/span&gt;
+   &lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;kwd&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; num&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;str&quot;&gt;&quot;Input your number and press enter: &quot;&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;typ&quot;&gt;Scanner&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;typ&quot;&gt;Scanner&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+	num &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;nextInt&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;();&lt;/span&gt;
+	&lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;str&quot;&gt;&quot;Reverse of the input number is:&quot;&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+	reverseMethod&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+	&lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;();&lt;/span&gt;
+   &lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;</pre><p>Output:</p><pre class="crayon-plain-tag">&lt;span class=&quot;typ&quot;&gt;Input&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; your number &lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;and&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; press enter&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;:&lt;/span&gt; 
+&lt;span class=&quot;lit&quot;&gt;5678901&lt;/span&gt;
+&lt;span class=&quot;typ&quot;&gt;Reverse&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; of the input number &lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;1098765&lt;/span&gt;</pre><p><strong id="demo">Example: Reverse an already initialized number</strong><br />
+In all the above programs we are prompting user for the input number, however if do not want the user interaction part and want to reverse an initialized number then this is how you can do it.</p><pre class="crayon-plain-tag">&lt;span class=&quot;kwd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;typ&quot;&gt;ReverseNumberDemo&lt;/span&gt;
+&lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;kwd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; main&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; args&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;[])&lt;/span&gt;
+   &lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;kwd&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; num&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;123456789&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;kwd&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; reversenum &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;kwd&quot;&gt;while&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; num &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+          reversenum &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; reversenum &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+          reversenum &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; reversenum &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; num&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;%&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+          num &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; num&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;
+
+      &lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;str&quot;&gt;&quot;Reverse of specified number is: &quot;&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;reversenum&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+   &lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;</pre><p>Output:</p><pre class="crayon-plain-tag">&lt;span class=&quot;typ&quot;&gt;Reverse&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; of specified number &lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;987654321&lt;/span&gt;</pre><p></p>
+<p>The post <a rel="nofollow" href="./../../../2019/01/20/java-program-to-reverse-a-number-using-for-while-and-recursion/index.html">Java program to reverse a number using for, while and recursion</a> appeared first on <a rel="nofollow" href="./../../../index.html">Study Chashma</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>./../../../2019/01/20/java-program-to-reverse-a-number-using-for-while-and-recursion/feed/index.html</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Java program to print Floyd’s triangle</title>
+		<link>./../../../2019/01/20/java-program-to-print-floyds-triangle/index.html</link>
+		<comments>./../../../2019/01/20/java-program-to-print-floyds-triangle/index.html#respond</comments>
+		<pubDate>Sun, 20 Jan 2019 08:39:50 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+
+		<guid isPermaLink="false">./../../../index.html?p=75</guid>
+		<description><![CDATA[<p>&#46;&#46;&#46;</p>
+<p>The post <a rel="nofollow" href="./../../../2019/01/20/java-program-to-print-floyds-triangle/index.html">Java program to print Floyd’s triangle</a> appeared first on <a rel="nofollow" href="./../../../index.html">Study Chashma</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h4>Example Program:</h4>
+<p>This program will prompt user for number of rows and based on the input, it would print the <a href="https://en.wikipedia.org/wiki/Floyd's_triangle" target="_blank" rel="noopener">Floyd’s triangle</a> having the same number of rows.</p><pre class="crayon-plain-tag">&lt;span class=&quot;com&quot;&gt;/* Program: It Prints Floyd's triangle based on user inputs
+ * Written by: Chaitanya from beginnersbook.com
+ * Input: Number of rows
+ * output: floyd's triangle*/&lt;/span&gt;
+&lt;span class=&quot;kwd&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; java&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;util&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;Scanner&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kwd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;typ&quot;&gt;FloydTriangleExample&lt;/span&gt;
+&lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kwd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; main&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; args&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;[])&lt;/span&gt;
+    &lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+       &lt;span class=&quot;kwd&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; rows&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; number &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; counter&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; j&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+       &lt;span class=&quot;com&quot;&gt;//To get the user's input&lt;/span&gt;
+       &lt;span class=&quot;typ&quot;&gt;Scanner&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; input &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;typ&quot;&gt;Scanner&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+       &lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;str&quot;&gt;&quot;Enter the number of rows for floyd's triangle:&quot;&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+       &lt;span class=&quot;com&quot;&gt;//Copying user input into an integer variable named rows&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+       rows &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; input&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;nextInt&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;();&lt;/span&gt;
+       &lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;str&quot;&gt;&quot;Floyd's triangle&quot;&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+       &lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;str&quot;&gt;&quot;****************&quot;&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+       &lt;span class=&quot;kwd&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; counter &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; counter &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;&amp;lt;=&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; rows &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; counter&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;++&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;)&lt;/span&gt;
+       &lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+           &lt;span class=&quot;kwd&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; j &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; j &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;&amp;lt;=&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; counter &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; j&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;++&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;)&lt;/span&gt;
+           &lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;number&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;str&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+                &lt;span class=&quot;com&quot;&gt;//Incrementing the number value&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+                number&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;++;&lt;/span&gt;
+           &lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;
+           &lt;span class=&quot;com&quot;&gt;//For new line&lt;/span&gt;
+           &lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;();&lt;/span&gt;
+       &lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;
+   &lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;</pre><p>Output:</p><pre class="crayon-plain-tag">&lt;span class=&quot;typ&quot;&gt;Enter&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; the number of rows &lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; floyd&lt;/span&gt;&lt;span class=&quot;str&quot;&gt;'s triangle:
+6
+Floyd'&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;s triangle
+&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;****************&lt;/span&gt;
+&lt;span class=&quot;lit&quot;&gt;1&lt;/span&gt; 
+&lt;span class=&quot;lit&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;3&lt;/span&gt; 
+&lt;span class=&quot;lit&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;5&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;6&lt;/span&gt; 
+&lt;span class=&quot;lit&quot;&gt;7&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;9&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;10&lt;/span&gt; 
+&lt;span class=&quot;lit&quot;&gt;11&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;13&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;14&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;15&lt;/span&gt; 
+&lt;span class=&quot;lit&quot;&gt;16&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;17&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;18&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;19&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;20&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;21&lt;/span&gt;</pre><p></p>
+<p>The post <a rel="nofollow" href="./../../../2019/01/20/java-program-to-print-floyds-triangle/index.html">Java program to print Floyd’s triangle</a> appeared first on <a rel="nofollow" href="./../../../index.html">Study Chashma</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>./../../../2019/01/20/java-program-to-print-floyds-triangle/feed/index.html</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Java program for linear search</title>
+		<link>./../../../2019/01/20/java-program-for-linear-search/index.html</link>
+		<comments>./../../../2019/01/20/java-program-for-linear-search/index.html#respond</comments>
+		<pubDate>Sun, 20 Jan 2019 08:37:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+
+		<guid isPermaLink="false">./../../../index.html?p=73</guid>
+		<description><![CDATA[<p>&#46;&#46;&#46;</p>
+<p>The post <a rel="nofollow" href="./../../../2019/01/20/java-program-for-linear-search/index.html">Java program for linear search</a> appeared first on <a rel="nofollow" href="./../../../index.html">Study Chashma</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<h4>Example Program:</h4>
+<p>This program uses <a href="https://en.wikipedia.org/wiki/Linear_search" target="_blank" rel="noopener">linear search algorithm</a> to find out a number among all other numbers entered by user.</p><pre class="crayon-plain-tag">&lt;span class=&quot;com&quot;&gt;/* Program: Linear Search Example
+ * Written by: Chaitanya from beginnersbook.com
+ * Input: Number of elements, element's values, value to be searched
+ * Output:Position of the number input by user among other numbers*/&lt;/span&gt;
+&lt;span class=&quot;kwd&quot;&gt;import&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; java&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;util&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;Scanner&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kwd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;typ&quot;&gt;LinearSearchExample&lt;/span&gt;
+&lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;kwd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;void&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; main&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; args&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;[])&lt;/span&gt;
+   &lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;kwd&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; counter&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; num&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; item&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; array&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;[];&lt;/span&gt;
+      &lt;span class=&quot;com&quot;&gt;//To capture user input&lt;/span&gt;
+      &lt;span class=&quot;typ&quot;&gt;Scanner&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; input &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;typ&quot;&gt;Scanner&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;in&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;str&quot;&gt;&quot;Enter number of elements:&quot;&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+      num &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; input&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;nextInt&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;();&lt;/span&gt; 
+      &lt;span class=&quot;com&quot;&gt;//Creating array to store the all the numbers&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+      array &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;num&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;];&lt;/span&gt; 
+      &lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;str&quot;&gt;&quot;Enter &quot;&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; num &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;str&quot;&gt;&quot; integers&quot;&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;com&quot;&gt;//Loop to store each numbers in array&lt;/span&gt;
+      &lt;span class=&quot;kwd&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;counter &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; counter &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; num&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; counter&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;++)&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+        array&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;counter&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; input&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;nextInt&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;();&lt;/span&gt;
+
+      &lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;str&quot;&gt;&quot;Enter the search value:&quot;&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;
+      item &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; input&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;nextInt&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;();&lt;/span&gt;
+
+      &lt;span class=&quot;kwd&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;counter &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; counter &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; num&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; counter&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;++)&lt;/span&gt;
+      &lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+         &lt;span class=&quot;kwd&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;array&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;counter&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; item&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;)&lt;/span&gt; 
+         &lt;span class=&quot;pun&quot;&gt;{&lt;/span&gt;
+           &lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;str&quot;&gt;&quot; is present at location &quot;&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;+(&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;counter&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;));&lt;/span&gt;
+           &lt;span class=&quot;com&quot;&gt;/*Item is found so to stop the search and to come out of the 
+            * loop use break statement.*/&lt;/span&gt;
+           &lt;span class=&quot;kwd&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;;&lt;/span&gt;
+         &lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;kwd&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;counter &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;==&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; num&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;typ&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;kwd&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;println&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt;item &lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;str&quot;&gt;&quot; doesn't exist in array.&quot;&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;);&lt;/span&gt;
+   &lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;pun&quot;&gt;}&lt;/span&gt;</pre><p>Output 1:</p><pre class="crayon-plain-tag">&lt;span class=&quot;typ&quot;&gt;Enter&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; number of elements&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lit&quot;&gt;6&lt;/span&gt;
+&lt;span class=&quot;typ&quot;&gt;Enter&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; integers
+&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;22&lt;/span&gt;
+&lt;span class=&quot;lit&quot;&gt;33&lt;/span&gt;
+&lt;span class=&quot;lit&quot;&gt;45&lt;/span&gt;
+&lt;span class=&quot;lit&quot;&gt;1&lt;/span&gt;
+&lt;span class=&quot;lit&quot;&gt;3&lt;/span&gt;
+&lt;span class=&quot;lit&quot;&gt;99&lt;/span&gt;
+&lt;span class=&quot;typ&quot;&gt;Enter&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; the search value&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lit&quot;&gt;45&lt;/span&gt;
+&lt;span class=&quot;lit&quot;&gt;45&lt;/span&gt; &lt;span class=&quot;kwd&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; present at location &lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;3&lt;/span&gt;</pre><p>Output 2:</p><pre class="crayon-plain-tag">&lt;span class=&quot;typ&quot;&gt;Enter&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; number of elements&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lit&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;typ&quot;&gt;Enter&lt;/span&gt; &lt;span class=&quot;lit&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; integers
+&lt;/span&gt;&lt;span class=&quot;lit&quot;&gt;11&lt;/span&gt;
+&lt;span class=&quot;lit&quot;&gt;22&lt;/span&gt;
+&lt;span class=&quot;lit&quot;&gt;4&lt;/span&gt;
+&lt;span class=&quot;lit&quot;&gt;5&lt;/span&gt;
+&lt;span class=&quot;typ&quot;&gt;Enter&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; the search value&lt;/span&gt;&lt;span class=&quot;pun&quot;&gt;:&lt;/span&gt;
+&lt;span class=&quot;lit&quot;&gt;99&lt;/span&gt;
+&lt;span class=&quot;lit&quot;&gt;99&lt;/span&gt;&lt;span class=&quot;pln&quot;&gt; doesn&lt;/span&gt;&lt;span class=&quot;str&quot;&gt;'t exist in array.&lt;/span&gt;</pre><p></p>
+<p>The post <a rel="nofollow" href="./../../../2019/01/20/java-program-for-linear-search/index.html">Java program for linear search</a> appeared first on <a rel="nofollow" href="./../../../index.html">Study Chashma</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>./../../../2019/01/20/java-program-for-linear-search/feed/index.html</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Java Program to check Even or Odd number</title>
+		<link>./../../../2019/01/20/java-program-to-check-even-or-odd-number/index.html</link>
+		<comments>./../../../2019/01/20/java-program-to-check-even-or-odd-number/index.html#respond</comments>
+		<pubDate>Sun, 20 Jan 2019 08:13:05 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Java]]></category>
+
+		<guid isPermaLink="false">./../../../index.html?p=66</guid>
+		<description><![CDATA[<p>&#46;&#46;&#46;</p>
+<p>The post <a rel="nofollow" href="./../../../2019/01/20/java-program-to-check-even-or-odd-number/index.html">Java Program to check Even or Odd number</a> appeared first on <a rel="nofollow" href="./../../../index.html">Study Chashma</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p></p><pre class="crayon-plain-tag">import java.util.Scanner;
+class CheckEvenOdd
+{
+  public static void main(String args[])
+  {
+    int num;
+    System.out.println(&quot;Enter an Integer number:&quot;);
+    //The input provided by user is stored in num
+    Scanner input = new Scanner(System.in);
+    num = input.nextInt();
+    /* If number is divisible by 2 then it's an even number
+     * else odd number*/
+    if ( num % 2 == 0 )
+        System.out.println(&quot;Entered number is even&quot;);
+     else
+        System.out.println(&quot;Entered number is odd&quot;);
+  }
+}</pre><p>Output 1:</p><pre class="crayon-plain-tag">Enter an Integer number:
+78
+Entered number is even</pre><p>Output 2:</p><pre class="crayon-plain-tag">Enter an Integer number:
+77
+Entered number is odd</pre><p></p>
+<p>The post <a rel="nofollow" href="./../../../2019/01/20/java-program-to-check-even-or-odd-number/index.html">Java Program to check Even or Odd number</a> appeared first on <a rel="nofollow" href="./../../../index.html">Study Chashma</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>./../../../2019/01/20/java-program-to-check-even-or-odd-number/feed/index.html</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
